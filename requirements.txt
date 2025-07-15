@@ -1,2 +1,2 @@
 streamlit==1.28.1
-groq==0.4.1
+groq==0.3.0
