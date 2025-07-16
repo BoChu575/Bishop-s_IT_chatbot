@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 st.title("💬 Bishop's University IT Support")
-st.markdown("Ask your IT questions here - we're here to help with Wi-Fi, Moodle, email, and more!")
+st.markdown("Enter your question here...")
 
 # --- API Key handling (completely secure) ---
 api_key = ""
