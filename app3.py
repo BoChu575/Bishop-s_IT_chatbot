@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 st.title("💬 Bishop's University IT Support")
-st.markdown("Enter your question here...")
+st.markdown("Thanks for using AI assistant. We are here to help.")
 
 # --- API Key handling (completely secure) ---
 api_key = ""
@@ -147,7 +147,7 @@ for idx, msg in enumerate(st.session_state.messages[1:], start=1):
                 st.warning("Thanks for the feedback! We'll keep improving. 👎")
 
 # --- Input & Response ---
-if prompt := st.chat_input("Ask your IT question here... (e.g., 'Can't connect to Wi-Fi', 'Forgot Moodle password')"):
+if prompt := st.chat_input("Ask your IT question here... "):
     if not api_key:
         st.error("🔧 The IT support chatbot is temporarily unavailable for maintenance.")
         st.info("""
